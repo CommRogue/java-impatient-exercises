@@ -54,7 +54,7 @@ class Table <K extends Comparable<K> , V> {
 
 public class Q3{
     public static void main(String[] args) {
-        Table<Integer, Integer> table = new Table<>();
+        Table2<Integer, Integer> table = new Table2<>();
         table.setKey(3, 5);
         System.out.println(table.getValue(3));
     }
